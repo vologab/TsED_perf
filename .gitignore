@@ -2,3 +2,4 @@
 *.map
 !pure_express.js
 node_modules
+.ignore
