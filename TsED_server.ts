@@ -1,13 +1,11 @@
 import {ServerLoader, ServerSettings} from "ts-express-decorators";
 
-// $log.stop();
-
 @ServerSettings({
     endpointUrl: "/",
     mount: {
         "/": "${rootDir}/TsED_controller.js"
     },
-    port: 8081,
+    port: 8080,
     logger: {
         logRequest: false
     }

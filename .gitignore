@@ -1,5 +1,6 @@
 *.js
 *.map
 !pure_express.js
+!express_as_TsED.js
 node_modules
 .ignore
