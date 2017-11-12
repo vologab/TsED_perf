@@ -6,6 +6,9 @@
   "dependencies": {
     "@types/express": "^4.0.39",
     "express": "^4.16.2",
+    "inversify": "^4.5.1",
+    "inversify-express-utils": "^4.2.2",
+    "reflect-metadata": "^0.1.10",
     "ts-express-decorators": "2.13.0"
   },
   "devDependencies": {},

@@ -1,4 +1,4 @@
-# ExpressJS vs Ts.ED perfomance
+# ExpressJS vs Ts.ED/Inversify Express Utils performance comparison
 
 ## Preparation
 
@@ -32,3 +32,4 @@ ab -k -c 20 -n 30000 http://127.0.0.1:8080/
 | pure express (pure_express.js)                       | 10314                     | 2                     | 3       | 7                         |
 | express with some TsED features (express_as_TsED.js) | 6770                      | 2                     | 5       | 14                        |
 | TsED (TsED_server.js)                                | 2983                      | 6                     | 13      | 24                        |
+| Inversify Express Utils (inversify_express_utils.js) | 4722                      | 4                     | 11      | 21                        |
